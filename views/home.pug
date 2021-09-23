@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+      div Welcome to Ujwal's Dance Academy
+      div.small Eat Sleep Dance Repeat     
+
+         
+    section#missionSection
+       h2 Our Mission    
+       div.card
+        h3 Dance Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/1.png")
+
+          div.card-content
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, aperiam.
+       div.card
+        h3 Dance The Way U Like
+        div.card-box
+          div.card-img
+            img(src="/static/img/4.png")
+
+          div.card-content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, commodi?
+       div.card
+        h3 Expert Teaching
+        div.card-box
+          div.card-img
+            img(src="/static/img/5.png")
+
+          div.card-content
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, provident?
